@@ -1,0 +1,22 @@
+:root {
+  --primary-color: pink;
+  --space-2: 16px;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap-2 {
+  gap: var(--space-2);
+}
